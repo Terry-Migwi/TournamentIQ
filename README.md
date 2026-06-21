@@ -43,6 +43,7 @@ Planned for later phases: FastAPI, LangChain, RAG chatbot layer
 
 ## Project Structure
 
+```
 world_cup/
 ├── data/             # SQLAlchemy models and ingestion scripts, pulling
 │                     # live match, team, and standings data from
@@ -58,5 +59,5 @@ world_cup/
 ├── worldcup.db        # 2022 backtest database
 └── worldcup_2026.db   # Live 2026 database 
 
-
+```
 The full technical write up, covering data sourcing, schema design, the Elo formula, and every data quality issue found along the way, is available here: *[https://medium.com/@terrymigwi/tournamentiq-8e46684d7cf7]*
